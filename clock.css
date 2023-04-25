@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+
+}
+
+.contain {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    width: 100%;
+    height: 28vh;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-shadow:
+      0 0 5px 	rgb(255, 49, 49),
+      0 0 10px 	rgb(255, 49, 49),
+      0 0 20px 	rgb(255, 49, 49),
+      0 0 40px 	rgb(255, 49, 49),
+      0 0 80px 	rgb(255, 49, 49),
+      0 0 90px 	rgb(255, 49, 49),
+      0 0 100px rgb(255, 49, 49),
+      0 0 150px rgb(255, 49, 49);
+}
+
+@media only screen and (max-width: 600px) {
+    #display{
+        font-size: 90px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #display{
+        font-size: 130px;
+    }
+}
